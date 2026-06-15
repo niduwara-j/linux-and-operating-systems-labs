@@ -4,29 +4,20 @@ This lab demonstrates fundamental Linux shell scripting concepts, including envi
 
 ## Files
 
-### `usrinfo.sh`
+### usrinfo.sh
+Demonstrates variable declaration and formatted output using Bash variables.
 
-A simple Bash script that demonstrates:
-
-* Variable declaration
-* Variable expansion
-* Formatted output
-
-### `welcome-script.sh`
-
-A Bash script that displays:
-
-* Welcome message
-* Current system date and time
+### welcome-script.sh
+Displays a welcome message and the current system date and time.
 
 ## Skills Demonstrated
 
-* Bash scripting
-* Environment variables
-* User-defined variables
-* Script execution permissions (`chmod`)
-* Command substitution
-* Linux command-line operations
+- Bash scripting
+- Environment variables
+- User-defined variables
+- Script execution permissions
+- Command substitution
+- Linux command-line operations
 
 ## Screenshots
 
@@ -37,13 +28,3 @@ A Bash script that displays:
 ### welcome-script.sh Execution
 
 ![welcome-script.sh Output](screenshots/welcome-script-output.png)
-
-## Example Commands
-
-```bash
-chmod +x usrinfo.sh
-./usrinfo.sh
-
-chmod +x welcome-script.sh
-./welcome-script.sh
-```
